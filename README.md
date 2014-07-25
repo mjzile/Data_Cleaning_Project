@@ -11,7 +11,22 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
+### Raw Data
+The raw data used in this analysis represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The data used is located here: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 
 ### How the Script works
 The run_analysis.R script loads in the accelerometer data which it assumes has been downloaded to the current working directory.  After the data has been loaded, some formatting is done to add labels to the columns and limit it to the mean and standard deviation measures.  Then the data is merged together.  Finally a tidy data table is created and exported.  
 
+
+### Tidy Data Set
+The Tidy Data Set which is outputted is an average of each variable for each activity and each subject.
+
+### Code Book
+The Code Book describes the variables, the data, and any transformations and any work  performed to clean up the data. 
